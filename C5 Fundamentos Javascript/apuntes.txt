@@ -1,0 +1,5 @@
+variable = contenedor que guarda un valor que puede cambiar a lo largo del tiempo
+las variables NO pueden empezar con numeros
+las variables NO pueden llamarce como palabras reservadas 
+node.js = es para ejecutar el codigo javascript en la terminal, ejemplo = node tipos-de-datos.js en este caso se ejecuta este archivo 
+funciones = es un bloque de codigo reutilozable 
