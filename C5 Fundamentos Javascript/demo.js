@@ -51,10 +51,44 @@ console.log (3 == 3); //preguntar igualdad de caracter
 console.log (3 === "3"); //preguntar igualdad estricta de caracter y tipo de dato
 //?asignacion y asociatividad
 var a = 1;//asignamos un valor a una variable 
+var b = 2
 var c = a = b //asociatividad para el igual se inicia de derecha a izquierda 
 // asociatividad = cuando los operadores son los mismos la asociatividad me dice el orden en que se ejecutan 
 
+
 //!FUNCIONES 
+// es un bloque de codigo reutilizable 
+function saludar(){//forma en la que declaramos la funcion
+console.log("buenas tardes");
+}
+saludar();//de esta forma llamamos la funcion
+
+// ejemplo con argumentos
+function saludarPersona(name){
+console.log("hola"+ " " + name)
+}
+// puedo utilizar varias veces la funcion, esa es la gracia
+saludarPersona("ines")
+saludarPersona("carlos")
+saludarPersona("hamilton")
+
+
+//!CONDICIONALES 
+//condicion que me direcciona el codigo dependiendo de la respuesta 
+//en el if se devuelve un valor boolean, dependiendo de la respuesta el codigo se ejecuta  
+if(3 > 10){
+console.log("es mayor")
+}
+else{
+console.log("es menor")
+}
+
+//!OBJETO MATH 
+//objeto que sirve para resolver problemas matematicos
+//dentro del objeto existen funciones especificas para los problemas 
+console.log(Math.pow(5, 2))//funcioon para elevar un numero
+
+
 
 
 
