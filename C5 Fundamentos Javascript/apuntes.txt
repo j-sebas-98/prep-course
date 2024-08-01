@@ -1,7 +1,11 @@
-variable = contenedor que guarda un valor que puede cambiar a lo largo del tiempo
+/**variable = contenedor que guarda un valor que puede cambiar a lo largo del tiempo
 las variables NO pueden empezar con numeros
 las variables NO pueden llamarce como palabras reservadas 
-node.js = es para ejecutar el codigo javascript en la terminal, ejemplo = node tipos-de-datos.js en este caso se ejecuta este archivo 
-funciones = es un bloque de codigo reutilizable 
+/**node.js = es para ejecutar el codigo javascript en la terminal, ejemplo = node tipos-de-datos.js en este caso se ejecuta este archivo 
+/**funciones = es un bloque de codigo reutilizable 
 las funciones NO pueden empezar con numeros
 las funciones NO pueden llamarce como palabras reservadas 
+el resultado de las funciones se pueden guardar en una variable
+/**precedencia = el orden en que los operadores son ejecutados 
+/**asociatividad = el orden en que los operadores son ejecutados PERO cuando el valor de la precedencia es el mismo
+cuando el operadores tiene el mismo valor de la precedencia se ejecuta de acuerdo con el valor de la asociatividad
