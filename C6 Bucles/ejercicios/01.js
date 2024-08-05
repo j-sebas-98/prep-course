@@ -6,14 +6,18 @@ function esIgualYNegativo(a, b) {
   if(a == b && a < 0 && b < 0 ){
     return true
   }
-  else if (a !== b && a < 0 && b < 0){
-
+  else if(a == b && a > 0 && b > 0){
+    return false
+  }
+  else if(a !== b && a < 0 && b < 0){
+    return false
   }
   else {
     return false
   }
+}
 
   
-}
+
 
 module.exports = esIgualYNegativo;
