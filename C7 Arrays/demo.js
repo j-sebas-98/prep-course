@@ -71,7 +71,7 @@ let nuevoarr1 = arr2.filter(filtrar)//recorre el arreglo y devuelve un nuevo arr
 console.log(nuevoarr1)
 
 console.log("reduce")
-let nuevoarr2 = arr3.reduce(reducir)//recoore el arreglo y devuelve un solo elemento
+let nuevoarr2 = arr3.reduce(reducir, 0)//recoore el arreglo y devuelve un solo elemento
 console.log(nuevoarr2)
 
 

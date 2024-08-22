@@ -4,8 +4,8 @@ function encontrarElementoRepetido(numeros) {
   // Tu código:
   let aux = numeros[0]
   for (let i = 0; i < numeros.length; i++) {
-   for (let j = 0; j < numeros.length; j++) {
-    if(numeros[i] == numeros[j] && i != j){
+   for (let j = i + 1; j < numeros.length; j++) {
+    if(numeros[i] == numeros[j]){
       return numeros[i]
     }
    }

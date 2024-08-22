@@ -13,7 +13,6 @@ function encontrarNumeroFaltante(numeros) {
       }  
   }
   return null
-
 }
 
 module.exports = encontrarNumeroFaltante;

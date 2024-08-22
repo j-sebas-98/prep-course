@@ -3,10 +3,9 @@ function tablaDelSeis() {
   // Desde 0 al 60.
   // Tu código:
   let tabla = []
-  tabla.push(0)
-  for (let i = 1; i <= 10; i++) { 
+  for (let i = 0; i <= 10; i++) { 
     tabla.push(i * 6)
-  }
-  return tabla
+  } 
+  return tabla 
 }
 module.exports = tablaDelSeis;
