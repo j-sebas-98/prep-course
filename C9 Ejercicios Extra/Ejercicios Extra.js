@@ -4,11 +4,13 @@ function deObjetoAarray(objeto) {
   // Recibes un objeto. Tendrás que crear un arreglo de arreglos.
   // Cada elemento del arreglo padre será un nuevo arreglo que contendrá dos elementos.
   // Estos elementos debe ser cada par clave:valor del objeto recibido.
-  // [EJEMPLO]: {D: 1, B: 2, C: 3} ---> [['D', 1], ['B', 2], ['C', 3]].
+  // [EJEMPLO]: {D: 1, B: 2, C: 3} ---> [['D', 1], ['B', 2], ['C', 3]]
   // Tu código:
   return Object.entries(objeto)
-  //? solucion de la clase 
-
+  //? solucion de la clase  
+  for (let index = 0; i < array.length; index++) {    
+              
+  }
 }
 function numberOfCharacters(string) {
   // La función recibe un string. Debes recorrerlo y retornar un objeto donde cada propiedad es una de las
@@ -25,6 +27,7 @@ function capToFront(string) {
   // Retornar el string.
   // [EJEMPLO]: soyHENRY ---> HENRYsoy
   // Tu código:
+  
   
 }
 
@@ -45,6 +48,7 @@ function deleteAbc(string) {
   // Tu tarea es eliminar las letras "a", "b" y "c" del string recibido.
   // Retorna el string sin estas letras.
   // Tu código:
+
 }
 
 function sortArray(arrayOfStrings) {
